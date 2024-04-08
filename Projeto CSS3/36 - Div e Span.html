@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>CSS3 - Div e Span</title>
+        <meta charset="utf-8">
+
+        <style>
+            #topo{
+                background: blue;
+            }
+            
+            #conteudo{
+                background: red;
+            }
+
+            #rodape{
+                background: green;
+                text-align: center;
+            }
+
+            .produto{
+                background: gray;
+            }
+
+            .categoria{
+                background: yellow;
+            }
+
+            .azul{
+                color: blue;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <!--Elemento de bloco, ou seja, ocupará sempre 100% horizontalmente-->
+        <div id="topo">
+            <img src="imagens/amazon.jpg" width="200">
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contato</li>
+            </ul>
+        </div>
+
+        <div id="conteudo">
+            <div class="produto">Produto 1</div>
+            <div class="produto">Produto 2</div>
+            <div class="produto">Produto 3</div>
+        </div>
+
+        <div class="categoria">
+            <!--Span: Elemento inline, ou seja, alinhará um ao lado do outro-->
+            <span>Categoria 1</span>
+            <span>Categoria 2</span>
+            <span>Categoria 3</span>
+        </div>
+
+        <div id="rodape">
+            Todos os direitos reservados
+        </div>
+    </body>
+</html>
